@@ -64,6 +64,7 @@ input.onGesture(Gesture.Shake, function () {
 let e_hits = 0
 let hits = 0
 let power_prcentage = 0
+game.pause()
 let good_guy = game.createSprite(1, 5)
 let bad_guy = game.createSprite(5, 5)
 let score = 0
